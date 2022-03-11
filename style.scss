@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    background-color: cornflowerblue;
+    color: white
+}
+form{
+    width: 700px;
+    margin: 20px auto;
+    background-color: #ddd;
+    padding: 30px;
+    div{
+        display: flex;
+        &:not(:nth-of-type(4)){
+            align-items: center;
+        }
+        margin-bottom: 20px;
+        label{
+            width: 15%;
+            
+        }
+        input{
+            width: 85%;
+            border: none;
+            outline: none;
+            border: 3px solid cornflowerblue;
+            padding: 10px 15px;
+        }
+        textarea{
+            width: 85%;
+            border: none;
+            outline: none;
+            border: 3px solid cornflowerblue;
+            padding: 10px 15px;
+            resize: none;
+            height: 150px;
+        }
+    }
+    button{
+        cursor: pointer;
+        background-color: darkslateblue;
+        color: white;
+        padding: 8px 15px;
+        width: 150px;
+        border: none;
+        outline: none;
+        border-radius: 7px;
+        display: block;
+        margin: auto;
+    }
+    
+}
